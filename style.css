@@ -27,7 +27,7 @@ img {
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 0 150px;
+  margin: 15px 150px;
 }
 
 .header > div{
@@ -71,3 +71,46 @@ button {
   padding: 5px 20px;
 }
 
+.section2-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-section2 {
+  flex-direction: column;
+  margin: 0 150px; 
+}
+
+.title-section2 > h1 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.images {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center; 
+  gap: 32px;
+}
+
+img {
+  min-width: 250px;
+  min-height: 250px;
+}
+
+.text-container-section2 {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center; 
+  gap: 32px;
+}
+
+.text-container-section2 p {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+}
