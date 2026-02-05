@@ -162,7 +162,7 @@ justify-content: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-width: 235px;
+  min-width: 400px;
 }
 
 .button-section4 button {
