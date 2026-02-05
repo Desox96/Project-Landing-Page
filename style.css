@@ -128,10 +128,11 @@ justify-content: center;
 /* ------------------------------------- sezione 3 -------------------------------------*/
 
 .section3-container {
-  padding: 0 200px;
+  padding: 100px 300px;
 }
 
 .text-container-section3 {
+  min-width: 400px;
   margin: 0 150px;
   padding: 75px 0;
   align-content: center;
@@ -167,4 +168,15 @@ justify-content: center;
 
 .button-section4 button {
   border: 1px solid white;
+}
+
+/* ------------------------------------- sezione 4 -------------------------------------*/
+
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  font-size: 18px;
+  color: white;
 }
