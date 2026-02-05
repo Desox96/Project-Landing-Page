@@ -87,23 +87,17 @@ button {
   padding: 50px;
 }
 
-.images {
+.images, .text-container-section2 {
   display: flex;
   flex-shrink: 0;
   justify-content: center; 
   gap: 32px;
+  margin-bottom: 10px;
 }
 
 img {
   min-width: 250px;
   min-height: 250px;
-}
-
-.text-container-section2 {
-  display: flex;
-  flex-shrink: 0;
-  justify-content: center; 
-  gap: 32px;
 }
 
 .text-container-section2 p {
@@ -113,4 +107,28 @@ img {
   padding: 0;
   margin: 0;
   width: 250px;
+}
+
+.section3-container {
+background-color: #e5e7eb;
+font-size: 36px;
+font-weight: 300;
+}
+
+.text-container-section3 {
+  margin: 0 150px;
+  padding: 75px 0;
+  align-content: center;
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.sign-section3 {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 900;
+  font-size: 24px;
 }
