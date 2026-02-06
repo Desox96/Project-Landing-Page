@@ -21,8 +21,8 @@ body {
 }
 
 img {
-    height: 500px;
-    width: 750px;
+    height: 200px;
+    width: 200px;
 }
 
 .header-container,.header,.title-content,.header-links {
@@ -52,10 +52,6 @@ div > a, .left-title-content > p {
   font-size: 18px;
   padding: 0;
   margin: 5px;
-}
-
-.text-section1{
-  max-width: 413px;
 }
 
 .title-content {
@@ -110,9 +106,9 @@ button {
   margin-bottom: 10px;
 }
 
-.images .image {
-  max-width: 250px;
-  max-height: 250px;
+img {
+  min-width: 250px;
+  min-height: 250px;
 }
 
 .text-container-section2 p {
