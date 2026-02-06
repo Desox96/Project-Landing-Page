@@ -21,8 +21,8 @@ body {
 }
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 750px;
 }
 
 .header-container,.header,.title-content,.header-links {
@@ -52,6 +52,10 @@ div > a, .left-title-content > p {
   font-size: 18px;
   padding: 0;
   margin: 5px;
+}
+
+.text-section1{
+  max-width: 413px;
 }
 
 .title-content {
