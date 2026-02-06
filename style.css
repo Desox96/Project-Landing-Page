@@ -110,9 +110,9 @@ button {
   margin-bottom: 10px;
 }
 
-img {
-  min-width: 250px;
-  min-height: 250px;
+.images .image {
+  max-width: 250px;
+  max-height: 250px;
 }
 
 .text-container-section2 p {
